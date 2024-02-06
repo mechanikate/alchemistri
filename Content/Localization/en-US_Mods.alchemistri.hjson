@@ -1,0 +1,25 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	AntimatterSlicer: {
+		DisplayName: Antimatter Slicer
+		Tooltip: Forged from antimatter, this sword will annihilate any matter it comes in contact with.
+	}
+
+	AntiHydrogen: {
+		DisplayName: Anti-Hydrogen
+		Tooltip: This dust will annihilate any matter it comes in contact with.
+	}
+
+	AntimatterWand: {
+		DisplayName: Antimatter Wand
+		Tooltip: Shoots antimatter conjured up by... forces.
+	}
+
+	AntimatterSynthesizer: {
+		DisplayName: Antimatter Synthesizer
+		Tooltip: Creates various things out of antimatter.
+	}
+}
+
+Projectiles.AntiProjectile.DisplayName: Anti-Projectile
