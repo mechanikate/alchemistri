@@ -23,3 +23,19 @@ Items: {
 }
 
 Projectiles.AntiProjectile.DisplayName: Anti-Projectile
+
+Configs: {
+	AlchemistriConfig: {
+		DisplayName: Alchemistri Config
+
+		EnableAncientManipulatorRecipe: {
+			Label: Enable Ancient Manipulator Recipe
+			Tooltip: Enable the recipe for Luminite Bar and Spectre Bar to Ancient Manipulator.
+		}
+
+		EnableLuminiteRecipe: {
+			Label: Enable Luminite Bar Recipe
+			Tooltip: Enable the recipe for Luminite Bar and Anti-Hydrogen to Luminite Bar.
+		}
+	}
+}
