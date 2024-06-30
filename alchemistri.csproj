@@ -6,12 +6,16 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <AdditionalFiles Remove="Content\NewFolder\**" />
+    <Compile Remove="Content\NewFolder\**" />
+    <EmbeddedResource Remove="Content\NewFolder\**" />
+    <None Remove="Content\NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="Content\Items\AdditionalDrills.png" />
     <None Remove="Content\Items\AntimatterSynthesizer.png" />
     <None Remove="Content\Items\AntimatterWand.png" />
     <None Remove="Content\Tiles\AntiDrillTile.png" />
     <None Remove="Content\Tiles\AntimatterSynthesizerTile.png" />
-  </ItemGroup>
-  <ItemGroup>
   </ItemGroup>
 </Project>

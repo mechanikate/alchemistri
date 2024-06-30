@@ -9,10 +9,10 @@ namespace alchemistri.Content.Projectiles
     {
         public override void SetDefaults()
         {
-            Projectile.arrow = true;
+            Projectile.CloneDefaults(ProjectileID.EnchantedBoomerang);
             Projectile.width = 10;
             Projectile.height = 10;
-            Projectile.CloneDefaults(ProjectileID.EnchantedBoomerang);
+            Projectile.timeLeft = 600;
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.damage = Instance.AntimatterWandDamage;
