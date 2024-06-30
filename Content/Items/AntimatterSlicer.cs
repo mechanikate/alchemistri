@@ -7,7 +7,6 @@ namespace alchemistri.Content.Items
 {
     public class AntimatterSlicer : ModItem
     {
-        // The Display Name and Tooltip of this item can be edited in the Localization/en-US_Mods.alchemistri.hjson file.
 
         public override void SetDefaults()
         {
@@ -26,7 +25,7 @@ namespace alchemistri.Content.Items
             Item.scale = 2f;
         }
 
-        public override void AddRecipes()  // 5 antihydrogen required @ ancient manipiulator
+        public override void AddRecipes()  // 5 antihydrogen required @ antimatter synthesizer
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient<AntiHydrogen>(5)

@@ -1,6 +1,7 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using static alchemistri.Config.AlchemistriConfig;
 
 namespace alchemistri.Content.Projectiles
 {
@@ -14,7 +15,7 @@ namespace alchemistri.Content.Projectiles
             Projectile.CloneDefaults(ProjectileID.EnchantedBoomerang);
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Ranged;
-            Projectile.damage = 6000;
+            Projectile.damage = Instance.AntimatterWandDamage;
         }
     }
 }

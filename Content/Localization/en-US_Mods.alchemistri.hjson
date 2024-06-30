@@ -20,6 +20,16 @@ Items: {
 		DisplayName: Antimatter Synthesizer
 		Tooltip: Creates various things out of antimatter.
 	}
+
+	AntiDrill: {
+		DisplayName: Anti Drill
+		Tooltip: Gets some ores from time to time from similar universes.
+	}
+
+	AdditionalDrills: {
+		DisplayName: Additional Drills
+		Tooltip: Doubles the ore generated, maximum of 1 per machine.
+	}
 }
 
 Projectiles.AntiProjectile.DisplayName: Anti-Projectile
@@ -37,5 +47,28 @@ Configs: {
 			Label: Enable Luminite Bar Recipe
 			Tooltip: Enable the recipe for Luminite Bar and Anti-Hydrogen to Luminite Bar.
 		}
+
+		EnableAdjustablePrefix: {
+			Label: Enable Adjustable Prefix
+			Tooltip: Enable the Adjustable reforge, which gives a random stat to all items with the reforge every launch.
+		}
+
+		AntimatterWandDamage: {
+			Label: Antimatter Wand Damage
+			Tooltip: Changes the damage of Antimatter Wand. Usually 6000.
+		}
+	}
+}
+
+Config: {
+	Other: Other
+	DamageValues: Damage Values
+	Recipes: Recipes
+}
+
+Prefixes: {
+	AdjustablePrefix: {
+		DisplayName: Adjustable
+		AdditionalTooltip: Adjustable
 	}
 }

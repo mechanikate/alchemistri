@@ -11,6 +11,7 @@ namespace alchemistri.Config
 
         #region recipes
 
+        [Header("$Mods.alchemistri.Config.Recipes")]
         [DefaultValue(true)]
         [ReloadRequired]
         public bool EnableAncientManipulatorRecipe;
@@ -20,5 +21,24 @@ namespace alchemistri.Config
         public bool EnableLuminiteRecipe;
 
         #endregion recipes
+
+        #region damagevalues
+
+        [Header("$Mods.alchemistri.Config.DamageValues")]
+        [Range(1, 1000000)]
+        [DefaultValue(6000)]
+        [ReloadRequired]
+        public int AntimatterWandDamage;
+
+        #endregion damagevalues
+
+        #region other
+
+        [Header("$Mods.alchemistri.Config.Other")]
+        [DefaultValue(true)]
+        [ReloadRequired]
+        public bool EnableAdjustablePrefix;
+
+        #endregion other
     }
 }

@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\tModLoader.targets" />
   <PropertyGroup>
     <AssemblyName>alchemistri</AssemblyName>
-    <TargetFramework>net6.0</TargetFramework>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Content\Items\AdditionalDrills.png" />
     <None Remove="Content\Items\AntimatterSynthesizer.png" />
     <None Remove="Content\Items\AntimatterWand.png" />
+    <None Remove="Content\Tiles\AntiDrillTile.png" />
     <None Remove="Content\Tiles\AntimatterSynthesizerTile.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
 </Project>

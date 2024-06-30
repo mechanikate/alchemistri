@@ -3,6 +3,7 @@ using Terraria.ModLoader;
 using Terraria;
 using alchemistri.Content.Projectiles;
 using alchemistri.Content.Tiles;
+using static alchemistri.Config.AlchemistriConfig;
 
 namespace alchemistri.Content.Items
 {
@@ -11,7 +12,7 @@ namespace alchemistri.Content.Items
 
         public override void SetDefaults()
         {
-            Item.damage = 6000;
+            Item.damage = Instance.AntimatterWandDamage;
             Item.DamageType = DamageClass.Magic;
             Item.width = 40;
             Item.height = 40;
@@ -27,7 +28,7 @@ namespace alchemistri.Content.Items
             Item.shootSpeed = 20f;
         }
 
-        public override void AddRecipes() // 7 antihydrogen required @ ancient manipiulator
+        public override void AddRecipes() // 7 antihydrogen required @ antimatter synthesizer.
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient<AntiHydrogen>(7)
