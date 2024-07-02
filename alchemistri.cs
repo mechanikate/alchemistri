@@ -1,5 +1,3 @@
-using alchemistri.Content.Compat;
-using System;
 using Terraria.ModLoader;
 using static alchemistri.Config.AlchemistriConfig;
 namespace alchemistri

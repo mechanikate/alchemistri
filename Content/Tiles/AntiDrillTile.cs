@@ -54,8 +54,6 @@ namespace alchemistri.Content.Tiles
         }
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            // ModTileEntity.Kill() handles checking if the tile entity exists and destroying it if it does exist in the world for you
-            // The tile coordinate parameters already refer to the top-left corner of the multitile
             ModContent.GetInstance<AntiDrillTileEntity>().Kill(i, j);
         }
         public override bool RightClick(int i, int j)
@@ -110,7 +108,7 @@ namespace alchemistri.Content.Tiles
                 }
                 else
                 {
-                    NetMessage.SendData(MessageID.RequestChestOpen, -1, -1, null, left, (float)top, 0f, 0f, 0, 0, 0);
+                    NetMessage.SendData(MessageID.RequestChestOpen, -1, -1, null, left, top, 0f, 0f, 0, 0, 0);
                     Main.stackSplit = 600;
                 }
             }

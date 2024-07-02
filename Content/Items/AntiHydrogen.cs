@@ -21,9 +21,8 @@ namespace alchemistri.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<AntimatterSlicer>(3)
-                  .AddIngredient<AntimatterWand>(1)
-                  .AddIngredient<AntiHydrogen>(10)
+            recipe.AddIngredient(ItemID.LunarBar, 50)
+                  .AddIngredient(ItemID.LunarCraftingStation, 1)
                   .AddTile(ModContent.TileType<AntimatterSynthesizerTile>())
                   .Register();
         }

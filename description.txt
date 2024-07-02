@@ -1,3 +1,5 @@
 NOTE: THIS MOD IS CURRENTLY INCREDIBLY UNBALANCED.
 
 Alchemistri is a mod that adds some silly concepts to Terraria, including an Antimatter Wand which shoots anti-projectiles that fly around, the Antimatter Slicer, and the Antimatter Synthesizer.
+
+GitHub @ https://github.com/mechanikate/alchemistri
